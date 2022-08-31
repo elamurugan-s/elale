@@ -28,7 +28,6 @@
         margin-top: 0px;
         background-image: url("panamaram.jpg");
         height: 60vh;
-        width : 100%;
     }
     #closeicon{
         margin-left: 100px;
@@ -169,6 +168,9 @@
             font-family: 'Source Sans Pro', arial, sans-serif;
             padding-top: 1.375rem;
         }
+        .product{
+            background-image: url("lemon.jpg");
+        }
         .product h2 {
         margin-top: 4.375rem;
         text-align: center;
@@ -179,8 +181,6 @@
         line-height: 1.2;
         font-size: 2.25em;
         color:  rgb(27, 27, 27);
-        background-size: cover;
-        background-image: url("lemon.jpg");
        }
         .squashes {
         font-size: 0.875em;
@@ -199,14 +199,13 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        column-gap: 3.125rem;
+        column-gap: 90px;
         margin-top: 3.125rem;
         }
     
         .palymra{
         background-image: url('palymra.png');
         text-align: center;
-        margin: 2.5rem;
         background-repeat: no-repeat;
         background-size: cover;
         height: 350px;
@@ -232,7 +231,6 @@
         background-image: url('mango.png');
         background-position: center;
         text-align: center;
-        margin: 2.5rem;
         background-repeat: no-repeat;
         background-size: cover;
         height: 350px;
@@ -258,7 +256,6 @@
         background-image: url('orange.png');
         background-position: center;
         text-align: center;
-        margin: 2.5rem;
         background-repeat: no-repeat;
         background-size: cover;
         height: 350px;
@@ -283,14 +280,13 @@
        .pineapple{
         background-image: url('pineapple.png');
         background-position: center;
-        margin: 2.5rem;
         text-align: center;
+        margin-top: 60px;
         background-repeat: no-repeat;
         background-size: cover;
         height: 350px;
         width: 300px;
         cursor: pointer;
-        margin-left: 2.5rem;
        }
        .pineapple h1{
         padding-top: 9.375rem;
@@ -311,7 +307,7 @@
         background-image: url('flower.png');
         background-position: center;
         text-align: center;
-        margin: 2.5rem;
+        margin-top: 60px;
         background-repeat: no-repeat;
         background-size: cover;
         height: 350px;
@@ -337,7 +333,7 @@
         background-image: url('flower.png');
         background-position: center;
         text-align: center;
-        margin-left: 2.5rem;
+        margin-top: 60px;
         background-repeat: no-repeat;
         background-size: cover;
         height: 350px;
@@ -373,7 +369,7 @@
         .whatsapp{
             background-image: url('whatsappbg.png');
         }
-    .whatsapp h2{
+        .whatsapp h2{
         font-size: 1em;
         margin-bottom: 1.5rem;
         line-height: 1.25;
@@ -467,8 +463,8 @@
     }
     @media(max-width:480px){
         .headerbackground{
-            width: 100vw;
-            overflow-x: hidden;
+            height: 40vh;
+            width: 100vh;
         } 
         .navheadertext {
             font-size: 9px;
@@ -489,24 +485,55 @@
         .header img{
             margin: auto;
         }
+        .about{
+            text-align: center;
+            margin-left: 120px;
+        }
         .vision{
             flex-direction: row;
             row-gap: 32px;
+        }
+        .visionimg{
+            width: 100%;
+        }
+        .visiontext{
+            text-align: center; 
         }
         .misson{
             flex-direction: column-reverse;
         }
         .missiontext{
         margin-top: 30px;
-        }
-        .missiontext h1{
-            padding-right: 5px;
+        text-align: center;
+        margin-right: 30px;
         }
         .development{
             flex-direction: column;
         }
         .developmenttext{
             margin-top: 30px;
+        }
+        .product{
+            width: 100vh;
+        }
+        .product h2{
+            text-align: center;
+            font-size: 32px;
+        }
+        .squashes h1{
+            padding-left: 60px;
+        }
+        .items{
+            margin-left:60px ;
+        }
+        .mango{
+            margin-top: 40px;
+        }
+        .orange{
+            margin-top: 40px;
+        }
+        .nongu{
+            width: 100%;
         }
         .palymra h3{
             opacity: 1;
@@ -526,6 +553,16 @@
         .null h3{
             opacity: 1;
         }
+        .contact{
+            margin-left: 80px;
+        }
+        .whatsapp{
+            width: 100vh;
+        }
+        .color{
+            width: 100vh;
+        }
+
 
        
     }
@@ -597,7 +634,7 @@
 <div class="misson">
     <div class="missiontext">
     <h1>misson</h1>
-    <p> Providing mutual development support services through fairand profitable 
+    <p> Providing mutual development support services through fair and profitable 
         <br>cooperative merchandise by protecting the<br> 
         interest of both the producers and the consumers. </p>
     </div>
